@@ -14,20 +14,18 @@ runs on your machine only.
 
 ## 1. Setup (one time)
 
-Install [Node.js](https://nodejs.org) 18+, then in a terminal:
+Install [Node.js](https://nodejs.org) 18+, then:
 
 ```bash
-mkdir -p ~/recover && cd ~/recover
-npm init -y
-npm install @bsv/sdk
+git clone https://github.com/auxon/bsv-recovery
+cd bsv-recovery
+npm install
 ```
-
-Copy `recover-bsvbrowser-address.mjs` into `~/recover`.
 
 ## 2. Find the address
 
 ```bash
-cd ~/recover
+cd bsv-recovery
 node recover-bsvbrowser-address.mjs
 ```
 

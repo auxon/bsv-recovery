@@ -1,0 +1,13 @@
+{
+  "name": "bsv-recovery",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Recover funds sent to a BSV Browser daily-address that disappeared from the app: scan BRC-29 date-keyed receive keys from a BIP39 phrase, export the WIF, or sweep to a controlled address.",
+  "scripts": {
+    "recover": "node recover-bsvbrowser-address.mjs"
+  },
+  "dependencies": {
+    "@bsv/sdk": "^2.4.1"
+  }
+}
